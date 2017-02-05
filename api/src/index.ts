@@ -24,8 +24,8 @@ async function loadTemperature(): Promise<TemperatureDocument> {
 
 const server = new Server();
 server.connection({
-  port: 3000,
-  host: 'localhost'
+  host: config.server.host,
+  port: config.server.port
 });
 
 server.route({
