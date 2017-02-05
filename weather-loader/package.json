@@ -1,0 +1,23 @@
+{
+  "name": "weather-nsu-loader",
+  "version": "1.0.0",
+  "description": "Service for loading data from weather.nsu.ru to database",
+  "main": "index.ts",
+  "repository": {},
+  "author": "Sergey Demurin",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@types/isomorphic-fetch": "^0.0.32",
+    "@types/mongodb": "^2.1.38",
+    "@types/yargs": "^6.5.0",
+    "isomorphic-fetch": "^2.2.1",
+    "mongo-uri-builder": "^1.0.3",
+    "mongodb": "^2.2.22",
+    "ts-node": "^2.0.0",
+    "typescript": "^2.1.5",
+    "yargs": "^6.6.0"
+  }
+}
